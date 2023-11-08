@@ -1,0 +1,191 @@
+%-------------------------------------
+% This template comes from Anish Athalye (Unofficial University of Cambridge Poster Template). 
+
+% The Poster Template has been modified by Dr. Rahul Raoniar to fulfill B.Tech/Master/Ph.D./PostDoc student's poster presentation requirements.
+
+% Description: I made this unofficial Poster Template for the Indian Institute of Technology Bombay (IITB). Feel free to use it, modify it, and share it. 
+
+% Thank you note: A huge thanks goes to Anish Athalye for the original template.
+%-------------------------------------
+
+
+\documentclass[final]{beamer}
+
+% ====================
+% Packages
+% ====================
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[orientation=portrait,scale=1.0]{beamerposter}
+\paperwidth 80 true cm
+\paperheight 140 true cm
+\usetheme{gemini}
+\usecolortheme{nott}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage[skip=2pt,font=normalsize]{subcaption}
+\usepackage{adjustbox}
+
+
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
+\setlength{\colwidth}{0.45\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% ====================
+% Title
+% ====================
+
+\title{Title}
+
+\author{Author \inst{1,2} \and Author \inst{1,2} \and Author \inst{1,}\inst{2} \and  Author\inst{2} \and Author \inst{1,2}}
+
+\institute[shortinst]{
+\inst{1} College of Computer Science and Technology, Jilin University, Changchun, China \newline
+\inst{2} Key Laboratory of Symbolic Computation and Knowledge Engineering, Ministry of Education, Changchun, China}
+% ====================
+% Footer (optional)
+% ====================
+
+\footercontent{
+  \href{your paper link(doi)}{\textbf{your paper link(doi)}} \hfill
+  \textbf{your journal name}
+  \hfill
+  \href{mailto:your email}{\textbf{your email}}}
+% (can be left out to remove footer)
+
+
+% ====================
+% Logo (optional)
+% ====================
+
+% use this to include logos on the left and/or right side of the header:
+\logoright{\includegraphics[height=8cm]{logos/sym1.png}}
+\logoleft{\includegraphics[height=8cm]{logos/jlulogo.png}}
+
+% ====================
+% Body
+% ====================
+
+
+
+\begin{document}
+
+\begin{frame}[t]
+\begin{columns}[t]
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+% ----------------------------------
+% Abstract
+% ----------------------------------
+  \begin{block}{Abstract}
+   Abstract Abstract Abstract
+  \end{block}
+  
+% ----------------------------------
+% Section: Literature review
+% ----------------------------------
+  \begin{exampleblock}{Preliminaries}
+
+\heading{AAAA}
+AAAA
+\heading{AAAA}
+AAAA
+\heading{AAAA}
+AAAA
+
+  \end{exampleblock}
+
+% ----------------------------------
+% Section: Research objectives
+% ----------------------------------
+  \begin{alertblock}{Research objectives}
+
+AAAA
+ 
+
+  \end{alertblock}
+
+% ----------------------------------
+% Section: Study methodology
+% ----------------------------------
+ \begin{block}{Methods}
+   
+  \heading{AAAA}
+AAAA
+
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{logos/sym.png}
+     
+\end{figure}
+
+
+\end{block}
+
+
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+\begin{block}{Experiments}
+
+
+AAA
+
+\end{block}
+% -------------------------------
+% Section: Results and discussion
+% -------------------------------
+
+
+
+
+% -------------------------------
+% Section: Conclusions
+% -------------------------------
+   \begin{exampleblock}{Conclusions}
+  
+
+AAA
+  \end{exampleblock}
+
+
+
+  
+
+
+
+
+
+\end{column}
+
+\separatorcolumn
+
+
+
+\end{columns}
+\end{frame}
+
+\end{document}
